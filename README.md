@@ -39,6 +39,7 @@ SQL techniques used include:
 
 - Filtering and sorting
 - GROUP BY and aggregate functions (COUNT, SUM, AVG)
+- HAVING
 
 ## Analysis
 
