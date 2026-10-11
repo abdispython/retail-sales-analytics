@@ -33,7 +33,9 @@ Tasks included:
 
 ## SQL Analysis
 
-The cleaned dataset was loaded into SQLite and analyzed using SQL to answer business questions related to sales, customers, products, and regions.
+For SQL analysis, the original retail dataset was loaded and prepared using Python and Pandas before being imported into SQLite. The SQL notebook performs its own preparation steps, while the exploratory analysis notebook separately exports a cleaned CSV.
+
+SQL queries were used to analyze sales performance, customers, products, and regional trends.
 
 SQL techniques used include:
 
@@ -79,8 +81,8 @@ DAX measures were used to calculate key performance indicators and support inter
 
 1. Imported and inspected the raw dataset using Python
 2. Cleaned and prepared the data with Pandas
-3. Exported the cleaned dataset
-4. Loaded the cleaned data into SQLite
+3. Exported a cleaned CSV during exploratory data analysis.
+4. Independently loaded and prepared the original CSV in the SQL notebook before importing it into SQLite.
 5. Used SQL to answer business questions
 6. Built DAX measures for key performance indicators
 7. Created an interactive Power BI dashboard
